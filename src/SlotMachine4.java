@@ -487,7 +487,7 @@ public class SlotMachine4 extends JFrame {
 			// runs while running = true
 				while(running) {
 					try {
-						Thread.sleep(75); // 100 millisecond pause 
+						Thread.sleep(75); // 75 millisecond pause 
 					}
 					catch(InterruptedException e) {
 						setRunning(false);
